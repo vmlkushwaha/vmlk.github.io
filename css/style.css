@@ -108,7 +108,7 @@ h3{
     background: #000000;
     color: var(--clr-light);
     padding: 0.5em 1em;
-    letter-spacing: .5em;
+    letter-spacing: .35em;
 }
 
 :focus{
