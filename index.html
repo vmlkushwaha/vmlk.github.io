@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vimal's portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css ">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
     <header id="home">
-        <img src="" alt="">
+        <img class="body-img" src="./img/portfolio-back.png" alt="">
         <button class="nav-toggle" aria-label="toggel navigation">
             <span class="hamburger"></span>
         </button>
@@ -30,7 +31,7 @@
     <section class="home">
         <h1 class="title title-home">Hi, I am <strong>Vimal Kushwah</strong></h1>
         <img src="img/my-img5.png" alt="my image" class="home-img">
-        <p class="subtitle subtitle-home">Full stack web Developer</p>
+        <p class="subtitle subtitle-home">Front-end web Developer</p>
     </section>
     <div class="scroll-down">
     <p class="scroll-down-text">scroll<br>down</p>
@@ -48,7 +49,7 @@
             </div>
             <div class="service">
                 <h3>Front-end developer</h3>
-                <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser. Front End Development is building out the visual components of a website.I build fast, responsive, interactive websites using HTML, CSS, Sass and React. </p>
+                <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser. Front End Development is building out the visual components of a website.I build fast, responsive, interactive websites.</p>
             </div>
             <div class="service">
                 <h3>JS developer</h3>
@@ -63,9 +64,43 @@
         <h1 class="title title-about">Know About Me</h1>
         <p class="subtitle subtitle-about">Designer & Developer</p>
         <div class="about-text">
-            <p>I'm full stack web developer and designer form India. I love to design and develop the web or mobile applications. The language I speak HTML, CSS, Sass, React and JavaScript.</p>
+            <p>I'm full stack web developer and designer form India. I love to design and develop the web or mobile applications. I have an excellent background as a Web Developer along with my academic education in Computer Science and Technology. The experience and my academic education have provided me with some outstanding and technical skills.</p>
         </div>
+        
     </section>
+    <div class="languages">
+        <p class="subtitle subtitle-languages">Skills</p>
+        <div class="languages-icons">
+            <div class="languages-icon">
+                <i class="fab fa-html5"></i>
+                <p>HTML</p>
+            </div>
+            <div class="languages-icon">
+                <i class="fab fa-css3-alt"></i>
+                <p>CSS</p>
+            </div>
+            <div class="languages-icon">
+                <i class="fab fa-js"></i>
+                <p>JavaScript</p>
+            </div>
+
+            <div class="languages-icon">
+                <i class="fab fa-react"></i>
+                <p>React</p>
+            </div>
+
+            <div class="languages-icon">
+                <i class="fab fa-sass"></i>
+                <p>SASS</p>
+            </div>
+
+            <div class="languages-icon">
+                <i class="fab fa-bootstrap"></i>
+                <p>Bootstrap</p>
+            </div>
+            
+        </div>
+    </div>
 
     <!--My work-->
     <section class="work" id="work">
@@ -74,31 +109,59 @@
         
         <div class="portfolio">
         <figure class="portfolio-item">
-            <img src="img/portfolio-1.jpg" alt="" class="portfolio-img">
+            <img src="img/Calculator.png" alt="" class="portfolio-img">
             <figcaption class="portfolio-desc">
                 <p>Simple Calculator</p>
-                <a href="./calculator/calculator.html" target="_blank" class="btn btn-style btn-small">Click here</a>
+                <a href="./calculator/calculator.html" target="_blank" class="btn btn-style btn-small">Demo</a>
             </figcaption>
         </figure>
         <figure class="portfolio-item">
-            <img src="img/portfolio-1.jpg" alt="" class="portfolio-img">
+            <img src="img/dom-game.png" alt="" class="portfolio-img">
             <figcaption class="portfolio-desc">
                 <p>DOM Game</p>
-                <a href="./DOM-pig-game/starter/index.html" target="_blank" class="btn btn-style btn-small">Click here</a>
+                <a href="./DOM-pig-game/starter/index.html" target="_blank" class="btn btn-style btn-small">Demo</a>
             </figcaption>
         </figure>
         <figure class="portfolio-item">
-            <img src="img/portfolio-1.jpg" alt="" class="portfolio-img">
+            <img src="img/budget-app.png" alt="" class="portfolio-img">
             <figcaption class="portfolio-desc">
                 <p>Budgety App</p>
-                <a href="./budgety.js/index.html" target="_blank" class="btn btn-style btn-small">Click here</a>
+                <a href="./budgety/index.html" target="_blank" class="btn btn-style btn-small">Demo</a>
+            </figcaption>
+        </figure>
+        <figure class="portfolio-item">
+            <img src="./img/mole-img.png" alt="" class="portfolio-img">
+            <figcaption class="portfolio-desc">
+                <p>Mole Game</p>
+                <a href="./mole-game/index.html" target="_blank" class="btn btn-style btn-small">Demo</a>
+            </figcaption>
+        </figure>
+        <figure class="portfolio-item">
+            <img src="img/todo.png" alt="" class="portfolio-img">
+            <figcaption class="portfolio-desc">
+                <p>Todo List</p>
+                <a href="https://todo-app-vimalk.web.app/" target="_blank" class="btn btn-style btn-small">Demo</a>
+            </figcaption>
+        </figure>
+        <figure class="portfolio-item">
+            <img src="img/fb-messenger.png" alt="" class="portfolio-img">
+            <figcaption class="portfolio-desc">
+                <p>Fb Messenger Clone</p>
+                <a href="https://fb-messenger-clone-vimalk.web.app/" target="_blank" class="btn btn-style btn-small">Demo</a>
+            </figcaption>
+        </figure>
+        <figure class="portfolio-item">
+            <img src="img/instagram.png" alt="" class="portfolio-img">
+            <figcaption class="portfolio-desc">
+                <p>instagram Clone</p>
+                <a href="https://instagram-clone-vmlk.web.app/" target="_blank" class="btn btn-style btn-small">Demo</a>
             </figcaption>
         </figure>
         <figure class="portfolio-item">
             <img src="img/portfolio-1.jpg" alt="" class="portfolio-img">
             <figcaption class="portfolio-desc">
-                <p>Mole Game</p>
-                <a href="./mole-game/index.html" target="_blank" class="btn btn-style btn-small">Click here</a>
+                <p>dummy</p>
+                <a href="#" target="_blank" class="btn btn-style btn-small">Demo</a>
             </figcaption>
         </figure>
     </div>
@@ -109,11 +172,11 @@
         <p class="footer-text">Get in touch:</p>
         <a href="mailto:vimalkwh05@gmail.com" class="footer-link">vimalkwh05@gmail.com</a>
         <ul class="social-list">
-            <li class="social-list-item"><a href="https://github.com/vimalkwh" target="_blank" class="social-list-link"><i class="fa fa-github" aria-hidden="true"></i>
+            <li class="social-list-item"><a href="https://github.com/vimalkwh" target="_blank" class="social-list-link"><i class="fab fa-github" aria-hidden="true"></i>
             </a></li>
-            <li class="social-list-item"><a href="https://www.linkedin.com/in/vimal-k-ba24aa135/" target="_blank" class="social-list-link"><i class="fa fa-linkedin" aria-hidden="true"></i>
+            <li class="social-list-item"><a href="https://www.linkedin.com/in/vimal-k-ba24aa135/" target="_blank" class="social-list-link"><i class="fab fa-linkedin" aria-hidden="true"></i>
             </a></li>
-            <li class="social-list-item"><a href="https://twitter.com/kushwah_22" target="_blank" class="social-list-link"><i class="fa fa-twitter" aria-hidden="true"></i>
+            <li class="social-list-item"><a href="https://twitter.com/kushwah_22" target="_blank" class="social-list-link"><i class="fab fa-twitter" aria-hidden="true"></i>
             </a></li>
         </ul>
     </footer>
